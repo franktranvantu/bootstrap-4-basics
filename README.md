@@ -1,1 +1,1 @@
-Now that all the necessary page elements are in place, let's add a few finishing touches using Bootstrap's utility classes.
+In this section, you'll learn how containers, rows, and columns work together to form Bootstrap's flexible grid system.
