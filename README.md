@@ -1,18 +1,16 @@
-Bootstrap's Jumbotron component is ideal for key marketing messages and calls to action; it gives important content the emphasis it requires.
+In this section, we'll add callout buttons using Bootstrap's predefined button styles. The buttons will link users to the conference registration form and list of speakers.
 
 Steps:
-1. Build jumbotron
+1. Build callout button
     ```html
-    <div class="jumbotron jumbotron-fluid">
-      <div class="container">
-        <h1 class="display-4">Fluid jumbotron</h1>
-        <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-      </div>
-    </div>
+    <button type="button" class="btn btn-outline-info btn-lg d-block mx-auto my-5">Don't Miss Out, Register Now</button>
     ```
- 2. Change background color and color
+ 2. Build button group
     ```html
-    <div class="jumbotron jumbotron-fluid bg-info text-white">
+    <div class="btn-group mt-4" role="group" aria-label="Callout buttons">
+      <button type="button" class="btn btn-primary btn-lg">Register Now</button>
+      <a class="btn btn-light btn-lg" href="#speakers">See Speakers</a>
+    </div>
     ```
  3. Align center texts and padding top
     ```html
