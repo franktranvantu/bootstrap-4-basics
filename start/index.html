@@ -10,8 +10,37 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
   </head>
   <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+      <div class="container">
+        <a class="navbar-brand order-1 mr-0" href="https://teamtreehouse.com/" target="_blank">Presented by Treehouse</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#speakers">Speakers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#schedule">Schedule</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- /navbar -->
+
+    <!-- .container -->
     <div class="container pt-4">
-      <div class="row"> <!-- about -->
+      <!-- about -->
+      <div class="row">
         <div class="col-lg order-lg-2">
           <h3 class="mb-4">About Full Stack Conf</h3>
           <img src="img/pdx.jpg" alt="Portland" class="mb-4 img-fluid rounded d-none d-sm-block">
@@ -35,13 +64,18 @@
             <li><strong>Babel</strong>: JavaScript compiler</li>
           </ul>
         </div>
-      </div> <!-- about -->
+      </div>
+      <!-- /about -->
 
-      <h1 class="display-4 text-center my-5 text-muted">Speakers</h1> <!-- speakers -->
+      <!-- speakers -->
+      <h1 class="display-4 text-center my-5 text-muted">Speakers</h1>
       [Speaker bios go here]
+      <!-- /speakers -->
 
-      <h1 class="display-4 text-center my-5 text-muted">Schedule</h1> <!-- schedules -->
+      <!-- schedules -->
+      <h1 class="display-4 text-center my-5 text-muted">Schedule</h1>
       [Conference schedule goes here]
+      <!-- /schedules -->
 
       <!-- signup form -->
       <hr>
@@ -60,8 +94,10 @@
           </div>
         </div>
       </div>
-      <hr><!-- /signup form -->
-    </div> <!-- .container -->
+      <hr>
+      <!-- /signup form -->
+    </div>
+    <!-- /.container -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
