@@ -1,1 +1,1 @@
-Before we start using the grid options and configurations, let's add more content to the columns, then style it using Bootstrap's content, typography, and utility classes.
+Learn Bootstrap's predefined classes for creating grid columns and controlling how columns display in a given breakpoint.
