@@ -1,1 +1,1 @@
-In this section, you'll learn how containers, rows, and columns work together to form Bootstrap's flexible grid system.
+Before we start using the grid options and configurations, let's add more content to the columns, then style it using Bootstrap's content, typography, and utility classes.
