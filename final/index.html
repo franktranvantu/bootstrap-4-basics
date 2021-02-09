@@ -45,7 +45,7 @@
         <h1 class="display-2">Full Stack Conf</h1>
         <p class="lead">A One-day Conference About All Things JavaScript!</p>
         <div class="btn-group mt-4" role="group" aria-label="Callout buttons">
-          <button type="button" class="btn btn-primary btn-lg">Register Now</button>
+          <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#register">Register Now</button>
           <a class="btn btn-light btn-lg" href="#speakers">See Speakers</a>
         </div>
       </div>
@@ -183,7 +183,7 @@
       </ul><!-- /schedules -->
 
       <!-- callout button -->
-      <button type="button" class="btn btn-outline-info btn-lg d-block mx-auto my-5">Don't Miss Out, Register Now</button>
+      <button type="button" class="btn btn-outline-info btn-lg d-block mx-auto my-5" data-toggle="modal" data-target="#register">Don't Miss Out, Register Now</button>
       <!-- /callout button -->
 
       <!-- signup form -->
@@ -199,8 +199,8 @@
           <div class="input-group">
             <input type="text" class="form-control" placeholder="Email">
             <span class="input-group-btn">
-                  <button class="btn btn-primary" type="button">Sign up</button>
-                </span>
+              <button class="btn btn-primary" type="button">Sign up</button>
+            </span>
           </div>
         </div>
       </div>
@@ -240,6 +240,28 @@
       <!-- /footer -->
     </div>
     <!-- /.container -->
+
+    <!--========== FORM MODAL ==========-->
+
+    <div class="modal fade" id="register" tabindex="-1" role="dialog" aria-labelledby="register form" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Register for Full Stack Conf</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            [Form goes here]
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

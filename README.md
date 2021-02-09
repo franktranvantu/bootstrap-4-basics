@@ -1,38 +1,25 @@
-List groups are flexible UI components for displaying both simple and complex lists of elements. 
-
-You can convert a simple HTML list into something more visually interesting.
+Modal windows are interactive pop-up windows that focus the user on the content inside the window; they're a great way to add attention-grabbing content to your site.
 
 Steps:
-1. Build schedule
+1. Build modal
     ```html
-    <ul class="list-group">
-      <li class="list-group-item">
-        <div class="d-flex justify-content-between">
-          <h5>Keynote: Internet of Things</h5>
-          <span class="badge badge-pill badge-info p-2">9:00 am</span>
+    <div class="modal fade" id="register" tabindex="-1" role="dialog" aria-labelledby="register form" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Register for Full Stack Conf</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            [Form goes here]
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
         </div>
-        <p class="mb-1">NodeStradamus</p>
-      </li>
-      <li class="list-group-item">
-        <div class="d-flex justify-content-between">
-          <h5>React Basics</h5>
-          <span class="badge badge-pill badge-info p-2">10:00 am</span>
-        </div>
-        <p class="mb-1">Vivianne McVue</p>
-      </li>
-      <li class="list-group-item">
-        <div class="d-flex justify-content-between">
-          <h5>Hey, Mongo!</h5>
-          <span class="badge badge-pill badge-info p-2">11:00 am</span>
-        </div>
-        <p class="mb-1">Jay Query</p>
-      </li>
-      <li class="list-group-item list-group-item-success">
-        <div class="d-flex justify-content-between">
-          <h5>Lunch</h5>
-          <span class="badge badge-pill badge-info p-2">12:00 pm</span>
-        </div>
-        <p class="mb-1">Free pizza for everyone!</p>
-      </li>
-    </ul>
+      </div>
+    </div>
     ```
