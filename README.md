@@ -1,37 +1,71 @@
-In this section, we'll build a basic page footer using the nav and dropdown button components. 
+Bootstrap 4 introduces a new UI component called Cards. 
 
-You'll learn how simple it is to add interactive components to your site, using JavaScript plugins.
+A card is a flexible and stylish container for displaying a wide variety of content, including images, text, list groups, and headings. 
+
+Cards have all the elements we need to display the speaker lineup.
 
 Steps:
-1. Build footer
+1. Build speakers
     ```html
-    <div class="row py-3">
-        <div class="col-md-7">
-          <ul class="nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Community</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Tracks</a>
-            </li>
-            <li class="nav-item">
-              <div class="btn-group dropup">
-                <button type="button" class="btn btn-outline-secondary">Other Conf</button>
-                <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  <span class="sr-only">Toggle Dropdown</span>
-                </button>
-                <div class="dropdown-menu">
-                  <a class="dropdown-item" href="#">CSS Conf</a>
-                  <a class="dropdown-item" href="#">Python Conf</a>
-                  <a class="dropdown-item" href="#">Java Conf</a>
-                  <a class="dropdown-item" href="#">Swift Conf</a>
-                </div>
-              </div>
-            </li>
-          </ul>
+    <div class="row">
+        <div class="col-md-6 col-lg-4">
+          <div class="card mb-3">
+            <img class="card-img-top" src="img/vivianne.png" alt="Vivianne">
+            <div class="card-body">
+              <h4 class="card-title">Vivianne McVue</h4>
+              <p class="card-text">Vivianne is a web developer and teacher who is passionate about building scalable, data-driven app, especially ones that address old problems with new tech!.</p>
+            </div>
+          </div>
         </div>
-        <div class="col-md text-md-right">
-          <small>&copy; 2017 Full Stack Conf &amp; Treehouse</small>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card mb-3">
+            <img class="card-img-top" src="img/nodestradamus.png" alt="NodeStradamus">
+            <div class="card-body">
+              <h4 class="card-title">NodeStradamus</h4>
+              <p class="card-text">NodeSta is a software engineer and philosopher trying to leave the world better than he found it . He codes for non-profits, eCommerce, and large-scale web apps.</p>
+            </div>
+          </div>
         </div>
-      </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card mb-3">
+            <img class="card-img-top" src="img/robbie.png" alt="Robbie Redux">
+            <div class="card-body">
+              <h4 class="card-title">Robbie Redux</h4>
+              <p class="card-text">Robbie is a JavaScript developer working on large-scale applications. He's also a teacher who strives to support students in removing barriers to learning code.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card mb-3">
+            <img class="card-img-top" src="img/ecma.png" alt="Ecma Scriptnstuff">
+            <div class="card-body">
+              <h4 class="card-title">Ecma Scriptnstuff</h4>
+              <p class="card-text">Ecma found her passion for programming and teaching over 15 years ago. She is excited to introduce you to all of the wonders of JavaScript.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card mb-3">
+            <img class="card-img-top" src="img/jay.png" alt="Jay Query">
+            <div class="card-body">
+              <h4 class="card-title">Jay Query</h4>
+              <p class="card-text">Jay is a developer, author of CSS: The Missing Manual, JavaScript &amp; jQuery: The Missing Manual, and web development teacher.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card mb-3">
+            <img class="card-img-top" src="img/json.png" alt="Json Babel">
+            <div class="card-body">
+              <h4 class="card-title">Json Babel</h4>
+              <p class="card-text">All of his professional life, Json has worked with computers online; he is a polyglot programmer and likes using the right tools for the job.</p>
+            </div>
+          </div>
+        </div>
+    </div>
     ```
