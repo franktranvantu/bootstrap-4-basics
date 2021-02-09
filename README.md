@@ -1,1 +1,1 @@
-In this section, we'll use Bootstrap's grid classes to create the form's "Payment Info" section.
+Learn how to make your Bootstrap site stand out, and have it fit your own style and needs, by adding custom CSS.
